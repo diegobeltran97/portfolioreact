@@ -15,7 +15,7 @@ export default class Projectpage extends Component {
               image: doctors,
               descripcion: "Desarrollo de la aplicación móvil híbrida y sistema de administración.",
               tecnologia: 'React Native | Node js | Php | HTML | CSS',
-              link: "/bill",
+              link: "https://www.doctorsathome.com/",
               color: "#fff"
             },
             {
@@ -23,7 +23,7 @@ export default class Projectpage extends Component {
               image: simpleCompany,
               descripcion: "Pagina para  un grupo de apasionados emprendedores, programadores y diseñadores",
               tecnologia: 'Wordpress | js | Google Analytics',
-              link: "/bill",
+              link: "https://simplecompany.io/",
               color: "#fff"
             },
             {
