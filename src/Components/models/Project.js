@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Slide } from 'react-slideshow-image';
 import "../../Utilities/css/Projects.css";
 
 export default class Project extends Component {
