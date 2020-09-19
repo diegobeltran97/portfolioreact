@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.about {
+  background-color: rgb(30, 30, 30);
+  color: #fff;
+}
+p {
+  font-family: "Roboto";
+  font-size: 15px;
+  line-height: 1.8em;
+  text-transform: none;
+  text-decoration: none;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0 0 1em;
+}
+.container {
+  padding: 75px;
+}
+h1 {
+    font-family: "Roboto";
+    font-size: 2em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .06em;
+    font-weight: 300;
+    font-style: normal
+}
+h2 {
+    font-family: "Roboto";
+    font-size: 2em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .06em;
+    font-weight: 300;
+    font-style: normal
+}

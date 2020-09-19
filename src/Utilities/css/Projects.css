@@ -1,0 +1,79 @@
+.projects {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.cards {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  padding: 1.5%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img.imagen {
+  width: 100%;
+  height: auto;
+}
+.projects h2 {
+  text-align: center;
+  margin: 15px 0;
+}
+/*Main Page*/
+.container-content {
+  display: flex;
+  flex-direction: column;
+}
+.container-page-project {
+  display: flex;
+  align-items: flex-start;
+  color: black;
+  border-bottom: 2px solid black;
+  padding: 2rem 3rem;
+}
+.container-page-project .project_image {
+  width: 400px;
+  height: auto;
+  text-align: center;
+}
+.container-page-project .project_image img {
+  width: 100%;
+  height: auto;
+}
+
+.container-page-project .titulo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+.container-page-project .project_description {
+  margin: 0 4rem;
+}
+.container-page-project .description {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 18px;
+}
+.container-page-project .project_description ul {
+  list-style: none;
+}
+
+@media screen and (max-width: 760px) {
+  .container-page-project {
+    flex-wrap: wrap;
+  }
+  .container-page-project .project_image {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4rem;
+  }
+}
+
+

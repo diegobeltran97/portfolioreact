@@ -1,0 +1,14 @@
+.c-description {
+  display: flex;
+  flex-direction: row;
+}
+.c-description .description {
+  padding-left: 10%;
+}
+@media only screen and (max-width: 750px) {
+  .c-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

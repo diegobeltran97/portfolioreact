@@ -1,0 +1,21 @@
+section.about {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.about h2 {
+  margin: 1em 0 .5em;
+}
+.about p a {
+  color: #fff;
+}
+.about .description {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 18px;
+  font-style: italic;
+}
+
+
+
