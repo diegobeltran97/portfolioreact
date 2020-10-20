@@ -35,7 +35,7 @@ img.imagen {
   align-items: flex-start;
   color: black;
   border-bottom: 2px solid black;
-  padding: 2rem 3rem;
+  padding: 1rem 1rem;
 }
 .container-page-project .project_image {
   width: 400px;
@@ -72,8 +72,6 @@ img.imagen {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 4rem;
+    padding: 0 2rem;
   }
 }
-
-

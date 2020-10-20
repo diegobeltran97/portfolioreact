@@ -11,7 +11,7 @@ class HomePage extends Component {
       title: "Acerca",
       logo: Logo,
       description:
-        "Soy desarrollador web con conocimientos en programación web y marketing. Mis objeticos son crear inovaciones en el campo de la Tecnología que brinden soluciones"
+        "Soy desarrollador web con conocimientos en programación web y marketing. Me considero una persona inovadora en el campo de la tecnología"
     };
     return (
       <div>

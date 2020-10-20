@@ -8,7 +8,7 @@
   color: #fff;
 }
 p {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-size: 15px;
   line-height: 1.8em;
   text-transform: none;
@@ -18,25 +18,25 @@ p {
   margin: 0 0 1em;
 }
 .container {
-  padding: 75px;
+  padding: 2rem;
 }
 h1 {
-    font-family: "Roboto";
-    font-size: 2em;
-    line-height: 1.5em;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: .06em;
-    font-weight: 300;
-    font-style: normal
+  font-family: 'Roboto';
+  font-size: 2em;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  font-weight: 300;
+  font-style: normal;
 }
 h2 {
-    font-family: "Roboto";
-    font-size: 2em;
-    line-height: 1.5em;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: .06em;
-    font-weight: 300;
-    font-style: normal
+  font-family: 'Roboto';
+  font-size: 2em;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  font-weight: 300;
+  font-style: normal;
 }
