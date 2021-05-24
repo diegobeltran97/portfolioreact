@@ -11,7 +11,7 @@ class Header extends Component {
     const Links = [
       { label: "Home", to: "/" },
       { label: "Acerca", to: "/about" },
-      { label: "Projects", to: "/projects" },
+      { label: "Proyectos", to: "/projects" },
       { label: "Blog", to: "/Blog" }
     ];
     return (
@@ -20,7 +20,7 @@ class Header extends Component {
           <header className="heade ">
             <div>
               <div className="logo">
-                <img src={logo} width="80px" alt="" />
+              <Link to="/" > <img src={logo} width="80px" alt="" /> </Link>
               </div>
             </div>
             <NavMenu links={Links} />

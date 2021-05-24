@@ -1,8 +1,11 @@
 section.contacthome {
   background-color: #333333;
   padding: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.contacthome  {
+.contacthome {
   color: #fff;
 }
 .contacthome .correo {
@@ -11,7 +14,6 @@ section.contacthome {
   font-size: 18px;
   text-align: center;
 }
-
 
 input,
 textarea {
@@ -24,8 +26,8 @@ textarea {
   background: #e0e0e0;
   color: #7a7a7a;
 }
-input[type="submit"],
-textarea[type="submit"] {
+input[type='submit'],
+textarea[type='submit'] {
   background: #4a4a4a;
   color: #fff;
   width: auto;
