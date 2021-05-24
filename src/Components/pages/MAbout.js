@@ -14,19 +14,19 @@ export default class MAbout extends Component {
               <h2>Acerca</h2>
               <p>
                 Soy un desarrollador web vivendo en panamá con conocimientos en
-                programación y marketing. Mis objetivos es comprender como las
-                compañias trabajan y como se puede inovar con diferentes
-                tecnologias.
-                Además de ser un desarrollador , disfruto la mayor parte de
-                mi tiempo tomando cursos, leyendo y sobretodo creando networking.  
+                programación y marketing. He trabajado en diferentes proyectos y emprendimientos.
+                Durante este proceso realice diferentes colaboraciones en desarollo y ventas, 
+                lo cual me ha permitido entender los difentes entornos que pueden llegar
+                a la hora de crear un producto o servicio.</p>
+              <p>  
+                Mi objetivo es brindar soluciones tecnológicas a los diferentes problemas que pueda tener una empresa.
+                Mis otros intereses son el bussiness intelligence, growth Hacking y diferentes temas que involucran
+                el crecimiento de una empresa para el éxito.
               </p>
+
               <p>
-                Mis otro intereses  son el marketing, bussiness
-                intelligence, growth Hacking y diferentes temas que involucran
-                el crecimiento de una empresa para el éxito. trabajar en entornos que a la gente le
-                guste crecer en sí mismos y tenga diferentes sueños sobre su
-                compañía, para mí esto es lo más importante en una empresa,
-                crear valor y creer en ello.
+                Además de ser un desarrollador , disfruto de 
+                mi tiempo, viajando,haciendo deporte,conocer otras culturas, leyendo y creando networking.
               </p>
              
             </div>

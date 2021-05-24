@@ -11,24 +11,25 @@ class HomePage extends Component {
       title: "Acerca",
       logo: Logo,
       description:
-        "Soy desarrollador web con conocimientos en programación web y marketing. Me considero una persona inovadora en el campo de la tecnología"
+        "Mi nombre es Diego Sastoque, desarrollador especializado en tecnologias web, colaborando en diferentes proyectos y emprendimientos. Durante este proceso he aprendido.."
     };
     return (
       <div>
-        <div className="fondo">
+        <section className="container-home" >
+          <div className="fondo"></div>
           <div className="title">
             <div className="box">
               <h1>Diego Sastoque</h1>
               <h2>
                 <Typed
-                  strings={["Desarrollador", "Freelance", "Autodidacta"]}
+                  strings={["Desarrollador", "Freelancer", "Autodidacta"]}
                   typeSpeed={50}
                   loop
                 />
               </h2>
             </div>
           </div>
-        </div>
+        </section>
 
         <About
           className="about"
