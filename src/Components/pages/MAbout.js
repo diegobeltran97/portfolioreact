@@ -26,7 +26,7 @@ export default class MAbout extends Component {
 
               <p>
                 Además de ser un desarrollador , disfruto de 
-                mi tiempo, viajando,haciendo deporte,conocer otras culturas, leyendo y creando networking.
+                mi tiempo, viajando,haciendo deporte,conociendo otras culturas,leyendo y creando networking.
               </p>
              
             </div>
