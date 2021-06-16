@@ -54,11 +54,11 @@ class NavMenu extends Component {
                 <Link to={link.to}>{link.label}</Link>
               </li>
             ))}
-            <li>
-              <a href="#">Lan</a>
+            <li className="lang">
+              Lan
               <ul className="dropdown">
-                <li onClick={() => this.changeLanguage('en')}><a href="#">Eng</a></li>
-                <li onClick={() => this.changeLanguage('es')}><a href="#">Spa</a></li> 
+                <li onClick={() => this.changeLanguage('en')}>Eng</li>
+                <li onClick={() => this.changeLanguage('es')}>Spa</li> 
               </ul>
             </li>
           </ul>
