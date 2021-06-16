@@ -5,14 +5,17 @@ import About from "./About";
 import Contacthome from './Contacthome'
 import Projects from "./Projects";
 import Logo from "../../Utilities/img/logof2.png";
+import { withTranslation } from 'react-i18next';
 class HomePage extends Component {
   render() {
+    const { t } = this.props;
     const about = {
       title: "Acerca",
       logo: Logo,
       description:
-        "Mi nombre es Diego Sastoque, desarrollador especializado en tecnologias web, colaborando en diferentes proyectos y emprendimientos. Durante este proceso he aprendido.."
+        t("Mi nombre es Diego Sastoque, desarrollador especializado en tecnologias web, colaborando en diferentes proyectos y emprendimientos. Durante este proceso he aprendido..")
     };
+    const subTitle = [ t('Desarrollador'), t("Freelancer"), t("Autodidacta")];
     return (
       <div>
         <section className="container-home" >
@@ -22,7 +25,7 @@ class HomePage extends Component {
               <h1>Diego Sastoque</h1>
               <h2>
                 <Typed
-                  strings={["Desarrollador", "Freelancer", "Autodidacta"]}
+                  strings={subTitle}
                   typeSpeed={50}
                   loop
                 />
@@ -44,4 +47,4 @@ class HomePage extends Component {
   }
 }
 
-export default HomePage;
+export default withTranslation() (HomePage);

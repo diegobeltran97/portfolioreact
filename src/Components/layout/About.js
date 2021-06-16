@@ -15,7 +15,7 @@ export default class About extends Component {
             <h2>{titulo}</h2>
           </div>
           <p className="description">
-            {descripcion} <Link to="/about">.....leer más</Link>
+            {descripcion} <Link to="/about">...leer más</Link>
           </p>
         </section>
       </div>

@@ -18,7 +18,7 @@
 }
 .card .card-summary {
   padding: 5% 5% 3% 5%;
-   font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .card .card-header {
   position: relative;
@@ -38,17 +38,17 @@
   background-color: rgba(139, 132, 132, 0);
 }
 .card .card-title {
-  background: rgba(54,55,58);
+  background: rgba(54, 55, 58);
   padding: 3.5% 0 2.5% 0;
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   position: absolute;
   bottom: 0;
   width: 100%;
 }
 .card .card-title h3 {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: 300;
   line-height: 1.2;
   padding: 0 3.5%;

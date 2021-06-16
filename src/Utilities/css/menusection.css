@@ -87,6 +87,38 @@ nav ul a:hover {
   margin-top: 35%;
 }
 
+ul li ul.dropdown {
+  background: white;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  right: 1rem;
+  display: none;
+  z-index: 30;
+  text-align: left;
+}
+
+ul li ul.dropdown li a {
+  color: black;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  margin: 0 auto;
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+  margin: 0 auto;
+  clear: both;
+  width: 100%;
+  color: black;
+}
+
 /* 
 Desktop */
 @media screen and (min-width: 760px) {
@@ -110,6 +142,7 @@ Desktop */
     border-bottom: 1px solid black;
     text-decoration-color: azure;
   }
+
   .menu-section {
     width: 80%;
     display: flex;

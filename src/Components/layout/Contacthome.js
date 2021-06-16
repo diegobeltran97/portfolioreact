@@ -2,14 +2,16 @@ import React, { Component } from "react";
 import "../../Utilities/css/Contacthome.css";
 import "../../Utilities/fonts/style.css";
 import Logo from "../../Utilities/img/logof2.png";
+import { withTranslation } from 'react-i18next';
 
-export default class Contacthome extends Component {
+ class Contacthome extends Component {
   render() {
+    const { t } = this.props;
     return (
       <div>
         <section className="contacthome">
 
-        <h2>Interesado en un Proyecto ?...</h2>
+        <h2>{t("Interesado en un Proyecto?")}</h2>
           <h2 className="correo">diegosastoque97@gmail.com</h2>
           <ul className="icons">
             <li>
@@ -28,3 +30,5 @@ export default class Contacthome extends Component {
     );
   }
 }
+
+export default withTranslation() (Contacthome);

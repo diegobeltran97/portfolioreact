@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom';
 import "../../Utilities/css/menusection.css";
 import "../../Utilities/js/menusection.js";
+import i18n from '../../i18n';
 
 class NavMenu extends Component {
   state = {
@@ -24,6 +25,12 @@ class NavMenu extends Component {
     }
    
   }
+
+
+  changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  }
+
 
  
 
@@ -47,6 +54,13 @@ class NavMenu extends Component {
                 <Link to={link.to}>{link.label}</Link>
               </li>
             ))}
+            <li>
+              <a href="#">Lan</a>
+              <ul className="dropdown">
+                <li onClick={() => this.changeLanguage('en')}><a href="#">Eng</a></li>
+                <li onClick={() => this.changeLanguage('es')}><a href="#">Spa</a></li> 
+              </ul>
+            </li>
           </ul>
         </nav>
       </div>

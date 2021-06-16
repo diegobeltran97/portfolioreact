@@ -7,36 +7,38 @@ import "../../Utilities/css/Projects.css";
 import doctors from "../../Utilities/img/doctorsathome.jpg";
 import simpleCompany from "../../Utilities/img/simpleCompany.png";
 import facturacion from "../../Utilities/img/app.jpg";
+import { withTranslation } from 'react-i18next';
 
-export default class projects extends Component {
+ class projects extends Component {
   render() {
+    const { t  } = this.props;
     const projects = [
       {
         title: "Doctors at Home",
         image: doctors,
         descripcion:
-          "Desarrollo de la aplicación móvil híbrida y sistema de administración.",
+          t("Desarrollo de la aplicación móvil híbrida y sistema de administración."),
         link: "/projects"
       },
       {
         title: "Simple Company",
         image: simpleCompany,
-        descripcion: "Pagina de empresa de consultoria de software",
+        descripcion: t("Pagina de empresa de consultoria de software"),
         link: "/projects"
       },
       {
         title: "Bill A&E",
         image: facturacion,
-        descripcion: "Sistema de reportería, generación de facturas y gestión de productos",
+        descripcion: t("Sistema de reportería, generación de facturas y gestión de productos"),
         link: "/projects"
       }
     ];
     return (
       <div className="projects">
-        <h2>Proyectos</h2>
+        <h2>{t('Proyectos')}</h2>
         <div className="cards">
           {projects.map((project, i) => (
-          <Link  to={project.link}>
+          <Link key={i} style={{textDecoration: "none"}} to={project.link}>
             <Card
               key={i}
               titulo={project.title}
@@ -51,3 +53,5 @@ export default class projects extends Component {
     );
   }
 }
+
+export default withTranslation() (projects);
